@@ -12,9 +12,9 @@ const InputChip = () => {
   };
 
   const handleDelete = (data) => {
-    console.log(data,"data")
+    // console.log(data,"data")
     let deleteIndex = inputArray.filter((el) => data !== el);
-    console.log(deleteIndex, "deleteIndex");
+    // console.log(deleteIndex, "deleteIndex");
     setInputArray(deleteIndex)
   };
   return (
